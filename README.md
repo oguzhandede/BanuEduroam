@@ -1,1 +1,1 @@
-# eduroam
+https://eduroam.cf
