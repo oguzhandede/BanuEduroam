@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+    
+  
+/* menu başlangıç  */
+    body{
+        margin: 0;
+        font-family: 'Oswald', sans-serif;
+       background-color: rgb(249, 249, 249);
+    }
+
+    #menu{
+        background-color: whitesmoke;
+        box-shadow: 0 4px 10px rgba(0, 0,0, 0.3) ;
+        display: flex;
+        height: auto;
+        width: auto;
+        }
+        #logo{
+            height: 125px;
+            margin: 5px;
+            margin-left: 350px;
+         
+            
+        }
+        
+        #menu li{
+            display: inline-block;
+            text-emphasis: none;
+            margin: 20px;
+            position: relative;
+            left: 500px;
+           
+           
+        }
+        #menu li a {
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+        }
+        #menu li a:hover{
+            text-decoration: underline;
+            text-decoration-color: rgb(24, 102, 180) ;
+        }
+            
+        .ikon{
+            margin-right: 7px;
+            /* font-size: 16px; */
+        }
+                                                           /* menu başlangıç  */
+                                                        /* hoşgeldiniz başlangıç  */
+        #anasayfa{
+            background-color: gray;
+            height: auto;
+            width: 100%;
+            background-image: url("../resim/dünyanet.jpg" );
+            background-size: cover;
+            background-repeat:no-repeat;
+            background-position: center;
+            background-attachment: fixed ;
+        }
+        #siyah{
+            height: 600px;
+            background-color: black;
+            opacity: .5;
+            width: auto;
+        }
+        #icerik1{
+            float: left;
+            position: absolute;
+            margin-left: 150px;
+            display: inline;
+            border-bottom: 2px solid white;
+            margin-top: -300px;
+            color: white;
+            font-size: 25px;
+            width: 100%;
+            max-width: 900px;
+            height: auto;
+        }
+                                                        /* hoşgeldiniz BİTİŞ  */
+                                                        /* eduroaö nedri başlanıç  */
+        #icerik2{
+            background-color: #f8f9fa;
+            /* padding: 50px; */
+            width: 100%;
+            height: auto;
+            text-align: center;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+        h3{
+            font-size: 50px;
+            color: dodgerblue;
+            text-shadow: 0px 1px 1px black;
+            font-weight: 600px;
+        }
+        .kutu1{
+            width: 70%;
+            height: auto;
+            margin: auto ;
+        
+        }
+        #sol{
+        float: left;
+        border-right:  3px solid dodgerblue;
+        font-size: 30px;
+        width: 400px;
+        }
+        #h5sol{
+            line-height: 1.6;
+            font-size: 30px;
+            font-weight: 600px;
+            
+        }
+        #h5sol ,#sag{
+            margin: 0;
+            padding: 0px;
+            margin-top: 20px;
+            float: center;
+        }
+        span{
+            font-size: 50px;
+            margin-right: 7px;
+            
+            line-height: 42px;
+            color: dodgerblue;
+            font-weight: 600;
+            float: left;
+        }
+        #sag{
+            float: right;
+            width: 750px;
+            text-align: center;
+           
+            font-size: 20px;
+            line-height: 1.8;
+        }
+        .akanres{
+            height: 250px;
+            width: 100%;
+            margin-top: 100px;
+        }
+        #pson{
+            color: #999;
+            letter-spacing: 1px;
+            font-size: 15px;
+            line-height: 1.8    ;
+        }
+        #pson a{
+            text-decoration: none;
+            color: rgb(80, 80, 80);
+        }
+
+                                                        /* eduroaö nedri bitiş  */
+
+                                                        /* Bağlantı ayarları başlangıç   */
+
+        #icerik3{
+            margin: auto;
+             /* background-color: white; */
+             padding: 50px;
+             text-align: center;
+             height: auto;
+             width: 70%;
+        }
+        .kart{
+            text-decoration: none;
+            
+            margin: 10px;
+            width: 300px;
+            height: 175px;
+            border: 1px solid dodgerblue;
+            padding: 0;  
+            box-shadow: 0 2px 8px 2px rgba(20, 23,28, .15);
+            display: inline-block;
+            border-radius: 10px;
+            background-color: white;
+            
+        
+        }
+        .kart:hover{
+            border: 2px solid dodgerblue;
+        
+        }
+        
+        .kartres{
+            height: 130px;
+            width: 100%;
+            margin: auto;
+            border-radius: 10px;
+          
+        }
+        .kartbas{
+            font-size:  20px;
+            height: auto;
+            color: dodgerblue;
+            margin: auto;
+            background-color: white;
+            text-decoration: none;
+        }
+        .kutu2{
+            
+            width: auto;
+            height: auto;
+            margin: auto ;
+        
+        }
+                                                        /* Bağlantı ayarları BİTİŞ */
+
+                                                        /* FOOTER başlangıç    */
+
+    #sosyalag{
+        height: 45px;
+        width: 100%;
+        font-size: 25px;
+        text-align: right;   
+        /* border-radius:5px;     */
+        border-top-right-radius: 10px ;
+        border-top-left-radius: 10px;
+        margin-right: 20px; 
+        position: fixed;
+        bottom: 0px;
+        background-color: dodgerblue;
+        }
+    .altyazi{
+        float: left;
+        color: white;
+    }
+        
+    footer a i{
+        color: #fff;
+        margin: 3px;
+    }
+    .footerkutu {
+        padding: 10px;
+    }
+  
+    a{
+        text-decoration: none;
+    }
+    #sosyalag a:hover i{
+        color: #e0dede;
+    }
+    .footeraltkutu{
+        height: 45px;
+        width: 100%;
+        
+    }
+
+  
+
+                                                        /* FOOTER   BİTİŞ   */
+                                                        /* cihazlar bailangıç    */
+
+        #cihkutu{
+            width: 80%;
+            margin: auto;
+            height: auto;
+            /* border: 1px solid dodgerblue ; */
+            top: 0;
+            border-radius: 10px;
+            /* box-shadow: 0 2px 8px 2px rgba(20, 23,28, .15); */
+            /* background-color: whitesmoke; */
+            
+        }
+        .baslik1{
+            text-align: center;
+            background-color: dodgerblue;
+            color: white;
+            height: auto;
+            width: auto;
+            /* line-height: 50px; */
+            font-size: 45px;
+            border-radius: 10px;
+        }
+        .cihazlar{
+            width: 35%;
+            height: auto;
+            display: inline-block;
+            
+            margin: 10px;
+            margin-left: 10%;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px 2px rgba(20, 23,28, .15);
+            border: 1px solid dodgerblue;
+            margin-top: 5%;
+            transition: border 0.3s;
+            
+          }
+        .cihazlar:hover{
+            border: 3px solid dodgerblue;
+
+          }
+        .cihres{
+            width: 100%;
+            height: 180px;
+            border-top-left-radius: 10px;
+            border-top-left-radius: 10px ;
+            border-radius: 10px;
+            margin: 0;
+            opacity: 1;
+             transition: opacity 0.8s;
+          }
+        .cihres:hover{
+            opacity: 0.5;
+            
+         }
+        .cihbas{
+            font-size: 20px;
+            display: inline-block;
+            margin: auto;
+            
+            text-align: center;
+          
+            height: 45px;  
+            line-height: 45px;
+            /* background-color: #f1f1f1; */
+            width: 100%;
+            border-radius: 10px;
+          }
+                                                                    /* cihzalar bitiş  */
+                                                                    /* adım başlangıç */
+        .kutuadim{
+            width: 90%;
+            margin: auto;
+            height: auto;
+            /* border: 1px solid dodgerblue ; */
+            justify-content: center;
+            border-radius: 10px;
+            display: flex;
+
+            /* background-color: whitesmoke; */
+        }  
+        .adimlar{
+            margin: 10px;
+            width: 30%;
+            height: 1200px;
+            display: inline-block;
+            text-align: center;
+            margin-right: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px 2px rgba(20, 23,28, .15);
+            padding: 5px;
+            /* position: fixed; */
+            justify-content: first baseline;
+            /* position: absolute; */
+
+        }
+        .adimres{
+            width: 100%;
+            border-radius: 10px;
+            height: 75%;
+            
+        }
+        .adimlar h4{
+            font-size: 25px;
+        }
+        video{
+           width: auto;
+           height: 400px;
+           margin: auto;
+           /* justify-content: center; */
+            display: flex;
+            margin-top: 10px;
+            border:1px;
+            box-shadow: 0 2px 8px 2px rgba(20, 23,28, .15);
+            border-radius: 10px;
+            padding: 5px;
+        }
+        
+      
+                                                                        /* ADIM BİTİŞ */
+                                                                      /* iletişim başlangış */
+            iframe{
+                width: 98%;
+                height: 350px;
+                border-radius: 10px;
+                margin :10px ;
+                box-shadow: 0 2px 8px 2px rgba(20, 23,28, .15);
+                margin-left: 15px;
+                
+            }
+            .Iletyazi{
+                font-size: 25px;
+                width: 70%;
+                height: auto;
+               text-align: center;
+                box-shadow: 0 2px 8px 2px rgba(20, 23,28, .15);
+                border-radius: 10px;
+                position: relative;
+                margin: auto;
+            }
+                                                                        /* iletişim bitiş  */
+                                                                        
+                                                                        /* Eduroam Ağına Nasıl Bağlanılır? başangıç        */
+        .kutu4{
+            width: 100%;
+             margin: auto;
+             text-align: center;
+            /* background-color: #818181; */
+            /* border: 1px solid black; */
+            /* background-color: ; */
+            background-image: url("../resim/kutuarkaplan.jpg" );
+        }
+        .kutu4 p{
+             margin: auto;
+             padding: 10px;
+             font-size: 20px;
+             /* color: white; */
+             width: 60%;
+             float: auto;
+             /* display: inline-block;
+             position: relative;
+             text-align: center;     */
+         }
+       
+        
+
+
+
+                                                                        /* Eduroam Ağına Nasıl Bağlanılır? bitiş */
+@media screen and (max-width:1700px) {
+
+   
+        #logo{
+            height: 140px;
+            margin: 5px;
+            margin-left: 250px;
+            
+        }
+        #menu li{
+            display: inline-block;
+            text-emphasis: none;
+            margin: 20px;
+            position: relative;
+            left: 350px;
+           
+           
+        }
+
+       
+
+}
+@media screen and (max-width:1648px) {
+    #sol{
+        border-bottom:  3px solid dodgerblue;
+        /* border-width: 50%; */
+        border-right: none;
+        text-align: center;
+        
+        width: 100%;
+    }
+    #sag{
+        float: right;
+        width: 100%;
+        text-align: center;
+       
+        font-size: 20px;
+        line-height: 1.8;
+    }
+    .adimlar{
+        height: 1400px;
+    }
+   
+    
+}
+
+
+@media screen and (max-width:1460px) {
+    #logo{
+        height: 125px;
+        margin: 5px;
+        margin-left: 150px;
+        
+    }
+    #menu li{
+        display: inline-block;
+        text-emphasis: none;
+        margin: 20px;
+        position: relative;
+        left: 200px;
+       
+       
+    }
+    .cihazlar{  
+            width: 60%;
+            height: 245;
+           
+            display: inline-block;
+            
+            margin: 10px;
+            margin-left: 180px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px 2px rgba(20, 23,28, .15);
+            border: 1px solid dodgerblue;
+        
+    }
+}
+@media screen and (max-width:1300px) {
+    .kutuadim{
+        width: 90%;
+        margin: auto;
+        height: auto;
+        /* border: 1px solid dodgerblue ; */
+        justify-content: center;
+        border-radius: 10px;
+        display: block;
+        
+
+        /* background-color: whitesmoke; */
+    }  
+    .adimlar{
+        margin: 10px;
+        margin-left: 20%;
+        width: 60%;
+        height: auto;
+        /* display: inline-block; */
+        text-align: center;
+        margin-right: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px 2px rgba(20, 23,28, .15);
+        padding: 5px;
+        /* position: fixed; */
+        /* justify-content: first baseline; */
+        /* position: absolute; */
+
+    }
+    .adimres{
+        width: 100%;
+        border-radius: 10px;
+        height: 80%;
+        
+    }
+    .adimlar h4{
+        font-size: 25px;
+    }
+    .kutuvideo{
+        /* width: 100%; */
+        display: flex;
+        margin: auto;
+    }
+}
+@media screen and (max-width:1150px) {
+    #logo{
+        height: 125px;
+        margin: 5px;
+        margin-left: 50px;
+        
+    }
+    #menu li{
+        display: inline-block;
+        text-emphasis: none;
+        margin: 20px;
+        position: relative;
+        left: 100px;
+       
+       
+    }
+    #icerik1{
+        float: left;
+        position: absolute;
+        margin-left: 150px;
+        display: inline;
+        border-bottom: 2px solid white;
+        margin-top: -300px;
+        color: white;
+        font-size: 25px;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+    
+}
