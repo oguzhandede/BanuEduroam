@@ -29,7 +29,7 @@
             text-emphasis: none;
             margin: 20px;
             position: relative;
-            left: 500px;
+            left: 200px;
            
            
         }
@@ -162,7 +162,8 @@
              padding: 50px;
              text-align: center;
              height: auto;
-             width: 70%;
+             /* width: 100%; */
+             background-image: url("../resim/kutuarkaplan.jpg" );
         }
         .kart{
             text-decoration: none;
@@ -371,6 +372,37 @@
         
       
                                                                         /* ADIM BİTİŞ */
+                                                                        /* eduroam nedir başlangış   */
+          .Nedir{
+            box-shadow: 0 2px 8px 2px rgba(20, 23,28, .15);
+            border-radius: 10px;
+            
+            /* text-align: center; */
+            width: 75%;
+            font-size: 23px;
+            margin: auto;
+            
+            
+
+          }
+          .Nediryazi{
+             /* margin-left: 30px; */
+padding: 30px;
+          }
+          .Nedir img {
+            margin-left:25% ;
+          
+          }
+          .edubilgi{
+            text-decoration: none;
+            text-align: center;
+            color: black;
+        }
+        .edubilgi a{
+            text-decoration: none;
+            color: dodgerblue;
+        }
+                                                                        /* eduroam nedir bitiş */
                                                                       /* iletişim başlangış */
             iframe{
                 width: 98%;
@@ -414,6 +446,26 @@
              position: relative;
              text-align: center;     */
          }
+         .kutu5{
+            width: 100%;
+             margin: auto;
+             text-align: center;
+            /* background-color: #818181; */
+            /* border: 1px solid black; */
+            /* background-color: ; */
+            
+        }
+        .kutu5 p{
+             margin: auto;
+             padding: 10px;
+             font-size: 20px;
+             /* color: white; */
+             width: 60%;
+             float: auto;
+             /* display: inline-block;
+             position: relative;
+             text-align: center;     */
+         }
        
         
 
@@ -434,7 +486,7 @@
             text-emphasis: none;
             margin: 20px;
             position: relative;
-            left: 350px;
+            left: 200px;
            
            
         }
@@ -465,13 +517,11 @@
    
     
 }
-
-
-@media screen and (max-width:1460px) {
+@media screen and (max-width:1533px) {
     #logo{
-        height: 125px;
+        height: 140px;
         margin: 5px;
-        margin-left: 150px;
+        margin-left: 200px;
         
     }
     #menu li{
@@ -480,6 +530,26 @@
         margin: 20px;
         position: relative;
         left: 200px;
+       
+       
+    }
+}
+
+
+
+@media screen and (max-width:1460px) {
+    #logo{
+        height: 125px;
+        margin: 5px;
+        margin-left: 100px;
+        
+    }
+    #menu li{
+        display: inline-block;
+        text-emphasis: none;
+        margin: 20px;
+        position: relative;
+        left: 175px;
        
        
     }
@@ -497,7 +567,22 @@
         
     }
 }
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1330px) {
+    #logo{
+        height: 140px;
+        margin: 5px;
+        margin-left: 50px;
+        
+    }
+    #menu li{
+        display: inline-block;
+        text-emphasis: none;
+        margin: 20px;
+        position: relative;
+        left: 50px;
+       
+       
+    }
     .kutuadim{
         width: 90%;
         margin: auto;
@@ -541,11 +626,11 @@
         margin: auto;
     }
 }
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1170px) {
     #logo{
         height: 125px;
         margin: 5px;
-        margin-left: 50px;
+        margin-left: 20px;
         
     }
     #menu li{
@@ -553,7 +638,7 @@
         text-emphasis: none;
         margin: 20px;
         position: relative;
-        left: 100px;
+        left: 50px;
        
        
     }
